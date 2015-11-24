@@ -6,9 +6,10 @@ Express middleware to monitor the bandwidth of requests.
 
 Limitations:
 
-1) If you use a reverse proxy that does compression / TLS termination,
+1. If you use a reverse proxy that does compression / TLS termination,
    the bandwidth will not reflect that.
-2) The bandwidth figure doesn't currently include HTTP headers, only
+
+2. The bandwidth figure doesn't currently include HTTP headers, only
    request/response body.
 
 ## Install
